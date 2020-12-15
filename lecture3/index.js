@@ -96,3 +96,17 @@ console.log(strictEquality); // false
 
 console.log(5 === '5'); // false
 console.log(5 === 5); // true
+
+// 5 == '5'
+// 5 === '5' 
+
+// !==
+console.log(15 !== '15'); // false
+console.log(15 !== 14); // true
+
+console.log(!true); // false
+console.log(!false); // true
+
+const a = 3;
+const b = 5;
+console.log(a !== b); // 3 !== 5, true
