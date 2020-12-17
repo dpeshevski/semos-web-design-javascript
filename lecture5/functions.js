@@ -85,7 +85,7 @@ console.log('Odzemanje', calculator(18, 5, 'odzemi')); // 13
 console.log('Delenje', calculator(27, 2, 'podeli')); // 13.5
 console.log('Mnozhenje', calculator(5, 7, 'pomnozhi')); // 35
 console.log('Stepen', calculator(5, 2, 'stepen')); // Unknow operation
-
+console.log('New commit');
 
 // Array
 // 0 ... n-1 (index, keys)
