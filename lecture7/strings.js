@@ -56,3 +56,72 @@ console.log(sliceText);
 
 const isFound = text.includes('world');
 console.log(isFound);
+
+
+// if (1) {
+// }
+// if (0) {
+// }
+
+
+console.log(5 < 6 < 7); // 1 < 7 => true
+console.log(7 > 6 > 5); // 1 > 5 => false
+
+
+console.log(5 == 5 < 2); // 1 < 2 => true
+console.log(3 < 5 == 5); // 3 < 1 => false
+
+
+// switch (expression) {
+//   case 'add':
+
+//   case 'sub':
+//   case 'pow':
+//   case 'div':
+// }
+
+
+// console.log(Number('2'));  === 2;
+// console.log(Number('2.55'));  === 2.55
+// console.log(parseInt('2'));  === 2;
+// console.log(parseFloat('2.55'));  === 2.55
+// console.log(parseInt('2.55'));  === 2
+
+// Number
+
+// const age = (prompt('Take a age', '')); // age: string
+
+// '19' === '19'
+// 19 === 19
+
+const a = Number('9');  // 9
+
+const b = '7'; // '7'
+const convertToNumber = Number(b); // 7
+
+console.log(a); // 9
+console.log(b); // '7'
+console.log(convertToNumber); // 7
+
+console.log(typeof a); // number
+console.log(typeof b); // string
+console.log(typeof convertToNumber); // number
+
+// switch(Number(age)) {
+//   case 18:
+//   case '19':
+//   case '20':
+//   case '21':
+//   case '22':
+//     console.log('Student');
+//     break;
+//   case 19:
+//     console.log('19 number data type');
+//     break;
+//   case '28':
+//     console.log('Hi 28');
+//     break;
+//   default:
+//     console.log('hello');
+//     break;
+// }
